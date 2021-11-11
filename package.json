@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "dependencies": {
+    "franc": "^6.0.0",
+    "fs": "^0.0.1-security",
+    "html": "^1.0.0",
+    "node-notifier": "^10.0.0",
+    "open": "^8.4.0",
+    "querystring": "^0.2.1",
+    "readline": "^1.3.0",
+    "request": "^2.88.2",
+    "twit": "^2.2.11",
+    "uniqueid": "^1.0.0",
+    "util": "^0.12.4"
+  }
+}
