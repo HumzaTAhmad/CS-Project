@@ -94,7 +94,7 @@ html{
   }
 
   /* nav styles */
-nav, footer {
+/* nav, footer {
     font-family: verdana, sans-serif;
     background-color: #F7F6F2;
   }
@@ -110,9 +110,9 @@ nav, footer {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-  }
+  } */
   
-  nav ul li {
+  /* nav ul li {
    font-size: .8em;
     text-transform: uppercase;
     letter-spacing: .2em;
@@ -141,4 +141,4 @@ nav, footer {
         line-height: 1.4em;
         color: #555;
         margin: 2.5%;
-      }
+      } */
