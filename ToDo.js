@@ -24,6 +24,7 @@ list.addEventListener('click', function(ev) {
     ev.target.classList.toggle('checked');
   }
 }, false);
+
 // Create a new list item when clicking on the "Add" button
 function newElement() {
   var li = document.createElement("li");
@@ -47,4 +48,8 @@ function newElement() {
       div.style.display = "none";
     }
   }
+}
+//Click on date
+function events(){
+  alert("No events!");
 }

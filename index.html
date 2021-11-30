@@ -34,28 +34,6 @@
     </nav>
     </header>
   </div>
-    <!-- <div class="container">
-      <div class="calendar">
-        <div class="month">
-          <i class="fas fa-angle-left prev"></i>
-          <div class="date">
-            <h1></h1>
-            <p></p>
-          </div>
-          <i class="fas fa-angle-right next"></i>
-        </div>
-        <div class="weekdays">
-          <div>Sun</div>
-          <div>Mon</div>
-          <div>Tue</div>
-          <div>Wed</div>
-          <div>Thu</div>
-          <div>Fri</div>
-          <div>Sat</div>
-        </div>
-        <div class="days"></div>
-      </div>
-    </div> -->
     <div style="width: 100%; display: table;">
       <div style="display: table-row; height: 100px;">
           <div style="width: 50%; display: table-cell; background: #888;">
@@ -78,7 +56,8 @@
                   <div style="color: black;">Fri</div>
                   <div style="color: black;">Sat</div>
                 </div>
-                <div class="days"></div>
+                <div class="days" onclick="events()">
+                </div>
               </div>
             </div>
           </div>
@@ -95,16 +74,6 @@
           </div>
       </div>
   </div>
-    <!-- <div id="myDIV" class="header">
-      <h2>My Events</h2>
-      <input type="text" id="myInput" placeholder="Title...">
-      <span onclick="newElement()" class="addBtn">Add</span>
-    </div>
-    
-    <ul id="myUL">
-      <li class="checked">Food Truck Event Nov 8th</li>
-      <li class="checked">Music Event Nov 15th</li>
-    </ul> -->
     <script src="ToDo.js"></script>
     <script src="scripts/script.js"></script>
     <script src="scripts/tweets.js"></script>
